@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SF Pro Display,sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  height: 71px;
+  background: white;
+  position: fixed;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.header-content a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.subject {
+  background-image: url(./images/inno\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.subject h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  width: 650px;
+  padding-top: 420px;
+  padding-left: 55px;
+}
+
+.about_theater {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 50px;
+}
+
+.theater_desc {
+  display: flex;
+  gap: 65px;
+}
+
+.about_theater p {
+  color: #818181;
+  font-size: 12px;
+  line-height: 200%;
+  font-weight: 700;
+}
+
+.about_theater a {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid black;
+}
+
+.story_main .story_header {
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0 50px;
+  margin-top: 82px;
+}
+
+.story_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 50px;
+  margin-top: 40px;
+}
+
+.story_card {
+  background-image: url("./images/Rectangle\ 141.jpg");
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+  box-shadow: 0px -84px 74px 0px #000000 inset;
+}
+
+.story_card_1 {
+  background-image: url("./images/Rectangle\ 141.png");
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+}
+
+.story_card_2 {
+  background-image: url("./images/Rectangle\ 141.jpg");
+  background-repeat: no-repeat;
+  width: 167px;
+  height: 450px;
+}
+
+.story_card_2 p {
+  width: 160px !important;
+}
+
+.buttons button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 14px;
+  background: #fa434b;
+  margin-top: 29px;
+  margin-left: 28px;
+}
+
+.buttons .white {
+  background: white;
+}
+
+.story_cards h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 280px;
+  margin-left: 28px;
+}
+
+.story_cards p {
+  color: #c7c7c7;
+  font-size: 12px;
+  line-height: 16px;
+  width: 279px;
+  margin-left: 28px;
+}
+
+.indentation {
+  width: 1280px;
+  height: 105px;
+  background: #fa434b;
+  margin-top: 50px;
+}
+
+.theater_news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin-top: 50px;
+}
+
+.theater_news h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.theater_news a {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 0 30px 110px 30px;
+}
+
+.cards span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c4c4c4;
+}
+
+.cards p {
+  width: 570px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #86837f;
+}
+
+.cards h1 {
+  width: 490px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
